@@ -1,0 +1,5 @@
+C:\Users\pcbpy\Documents\GitHub\Reflection\Reflection\bin\Debug\Reflection.exe.config
+C:\Users\pcbpy\Documents\GitHub\Reflection\Reflection\bin\Debug\Reflection.exe
+C:\Users\pcbpy\Documents\GitHub\Reflection\Reflection\bin\Debug\Reflection.pdb
+C:\Users\pcbpy\Documents\GitHub\Reflection\Reflection\obj\Debug\Reflection.exe
+C:\Users\pcbpy\Documents\GitHub\Reflection\Reflection\obj\Debug\Reflection.pdb
