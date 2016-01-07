@@ -89,15 +89,9 @@ namespace Reflection
 
                         dbCmd.Parameters.AddWithValue(attr.FieldName, prop.GetValue(myData));
                     }
-                    // The result is the number of rows affected, it should always be 1
-                    var valke = dbCmd.ExecuteNonQuery();
-
-                    Console.WriteLine(valke.ToString());
-                    //return dbCmd.ExecuteNonQuery() == 1;
-
-                    return valke == -1;
+                    // The result is -1 if successful.
+                    return dbCmd.ExecuteNonQuery() == -1;
                 }
-
             }
         }
     }
