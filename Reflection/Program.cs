@@ -61,7 +61,7 @@ namespace Reflection
 
         public bool Save()
         {
-            const string cnn = @"Server=.\SQLEXPRESS;Initial Catalog=LiquidPOS;Trusted_Connection=True;Connect Timeout=30;";
+            const string cnn = @"Server=.\SQLEXPRESS;Initial Catalog=TestDatabase;Trusted_Connection=True;Connect Timeout=30;";
 
             const string storedProcedure = "AddData";
 
